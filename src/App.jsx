@@ -87,7 +87,6 @@ export default function App() {
   return (
     <div className="bg-gray-50 pt-16">
       <Navbar />
-      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/lenganpendek" element={<LenganPendek />} />

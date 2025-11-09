@@ -13,6 +13,7 @@ import baju3 from "./assets/baju3.jpg";
 import baju4 from "./assets/baju4.jpg";
 import baju5 from "./assets/baju5.jpg";
 import baju6 from "./assets/baju6.jpg";
+import ScrollToTop from "./components/ScrollToTop";
 
 function Home() {
   const products = [
@@ -85,6 +86,7 @@ export default function App() {
   return (
     <div className="bg-gray-50 pt-16">
       <Navbar />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/lenganpendek" element={<LenganPendek />} />

@@ -96,7 +96,6 @@ const Navbar = () => {
             </>
           )}
 
-          {/* Search bar for mobile */}
           <div className="border rounded-md bg-white px-2 py-2 w-10/12 flex items-center justify-between">
             <input
               type="text"

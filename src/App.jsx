@@ -7,6 +7,8 @@ import Section from "./components/Section";
 import Card from "./components/Card";
 import LenganPendek from "./pages/LenganPendek";
 import Sweater from "./pages/Sweater";
+import Tentang from "./pages/Tentang";
+import Kontak from "./pages/Kontak";
 import baju from "./assets/baju.jpg";
 import baju2 from "./assets/baju2.jpg";
 import baju3 from "./assets/baju3.jpg";
@@ -90,6 +92,8 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/lenganpendek" element={<LenganPendek />} />
+        <Route path="/about" element={<Tentang />} />
+        <Route path="/contact" element={<Kontak />} />
         <Route path="/sweater" element={<Sweater />} />
       </Routes>
       <Footer />
